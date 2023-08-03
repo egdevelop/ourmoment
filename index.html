@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Haii wanita cantikkuu!!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="text-center">
+                <h1>Hollaa</h1>
+                <div class="card m-3">
+                    <div class="card-body text-start">
+                        <p clas>Dear diah,</p>
+                        <p>Ini aku dari masa depan ingin menceritakan tentang satu momen kita di sore menuju malam di hari
+                            ulang tahun mu, pada saat itu <b>tanggal 4 Agustus 2023 jam 15.30</b> tepatnya setelah solat asar aku
+                            datang di depan rumah mu dengan berpakaian rapih menjemputmu yang begitu cantik dengan <b>dress yang
+                            membuatku terpesona seakan jatuh cinta lagi kepada wanita yang sudah menjadi milikku</b>, berangkat dari
+                            rumahmu dengan jantung yang bedetak kita menuju suatu tempat memang saya tidak menyebutkan tempatnya
+                            tapi aku ingin sedikit mengambarkan suasana tempat yang kita tuju , tempat ini tinggi tapi di tengah kota
+                            saat itu sore menuju malam kita duduk berdua melihat langit di depan , kita akhirnya mengobrol dan makan
+                            sampai langit gelap dan pandangan kita melihat lampu lampu kota tersayang kita dengan lampu lampu yang menghiasi kota tersebut
+                            tapi tenang langit malam tapi aku tidak lupa untuk mengantarmu pulang dengan selamat pada jam 20.00 jadi aman ya hehe,
+                            <br />
+                            <br />
+                            apakah kamu ingat ? dimana kita ?
+                        </p>
+                        <p class="">-Brian</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" style="background-color: black; padding-top: 30vh;" tabindex="-1" id="modalOpen">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"></h5>
+              <button type="button" class="btn-close" id="music1" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>For my sun</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" id="music" class="btn btn-danger" data-bs-dismiss="modal">Open</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+      <script>
+        // Check after document ready show the modal
+        $(document).ready(function(){
+            $('#modalOpen').modal('show');
+        });
+
+        // add event lsiterner for #music to play lagu.mp3
+        $("#music").click(() => {
+            const music = new Audio("lagu.mp3");
+            music.play();
+        })
+
+        $("#music1").click(() => {
+            const music = new Audio("lagu.mp3");
+            music.play();
+        })
+                
+      </script>
+
+  </body>
+</html>
